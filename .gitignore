@@ -1,0 +1,22 @@
+# --- Java / Spring Boot ---
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+*.log
+backend/screenshots/ 
+backend/playwright-log/
+
+# --- Node / Next.js ---
+node_modules/
+.next/
+out/
+.env.local
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- OS Junk ---
+Thumbs.db
