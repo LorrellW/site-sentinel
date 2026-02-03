@@ -1,5 +1,6 @@
 # 🛡️ SiteSentinel - Synthetic Monitoring Platform
-<img width="955" height="502" alt="image" src="https://github.com/user-attachments/assets/f2817171-aa9c-41a6-95da-13b4d1347a3a" />
+<img width="946" height="694" alt="image" src="https://github.com/user-attachments/assets/142b6ad4-2d33-49ee-9d4c-4638074094a0" />
+
 
 A full-stack automated monitoring SaaS that tracks website uptime and visual integrity.
 Built with **Java Spring Boot** for the backend architecture and **Playwright** for headless browser automation, leveraging **Next.JS** for the frontend dashboard.
