@@ -57,3 +57,18 @@ npm install
 npm run dev
 ```
 - The Dashboard will open on http://localhost:3000
+
+## 💾 Database Schema
+
+SiteSentinel uses a relational schema optimized for real-time status tracking.
+Data persistence is handled via **Spring Data JPA** with Hibernate ORM.
+
+### The `Monitor` Table
+| Field | Type | Description |
+| :--- | :--- | :--- |
+| `id` | PK | Unique Identifier |
+| `name` | String | Friendly display name |
+| `url` | String | Target URL to audit |
+| `last_status` | Integer | HTTP Status Code (200, 404, etc.) |
+| `response_time_ms`| Long | Latency in milliseconds |
+| `screenshot_file` | String | Reference to the stored DOM capture |
